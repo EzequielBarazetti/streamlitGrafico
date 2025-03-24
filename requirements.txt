@@ -2,3 +2,4 @@ plotly==5.9.0
 pandas
 psycopg2-binary
 streamlit
+numpy==1.21.5
