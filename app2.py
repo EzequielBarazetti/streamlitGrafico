@@ -15,7 +15,7 @@ def conectar_bd():
     )
 
 st.set_page_config(page_title="Gerenciador de Gráficos by (Ezequiel Barazetti)", layout="wide")
-st.title("📊 Gerenciador de Gráficos Salvos")
+st.title("📊 Gerenciador de Gráficos Salvos  by (Ezequiel Barazetti)")
 
 # Carregar gráficos salvos no banco de dados
 def carregar_graficos():

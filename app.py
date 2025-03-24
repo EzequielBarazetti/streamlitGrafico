@@ -18,7 +18,7 @@ def conectar_bd():
         port="5432"
     )
 
-st.title("📊 Gerador de Gráficos Dinâmico")
+st.title("📊 Gerador de Gráficos Dinâmico  by (Ezequiel Barazetti)")
 
 # Função para carregar gráficos salvos
 def carregar_graficos():
