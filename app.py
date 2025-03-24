@@ -6,15 +6,15 @@ import json
 from datetime import datetime
 
 # Configuração da página
-st.set_page_config(page_title="Gerador de Gráficos Dinâmico", layout="wide")
+st.set_page_config(page_title="Gerador de Gráficos Dinâmico by (Ezequiel Barazetti)", layout="wide")
 
 # Configurar conexão com o PostgreSQL
 def conectar_bd():
     return psycopg2.connect(
-        dbname="postgres",
-        user="postgres",
-        password="123",
-        host="localhost",
+        dbname="streamlitdb_2geg",
+        user="root",
+        password="wEBCpL7N6tRjYsVZaTH9haSxM3EZ0SFH",
+        host="dpg-cvgakv2qgecs739d2o2g-a.oregon-postgres.render.com",
         port="5432"
     )
 

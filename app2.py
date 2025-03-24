@@ -7,14 +7,14 @@ import json
 # Configurar conexão com o PostgreSQL
 def conectar_bd():
     return psycopg2.connect(
-        dbname="postgres",
-        user="postgres",
-        password="123",
-        host="localhost",
+        dbname="streamlitdb_2geg",
+        user="root",
+        password="wEBCpL7N6tRjYsVZaTH9haSxM3EZ0SFH",
+        host="dpg-cvgakv2qgecs739d2o2g-a.oregon-postgres.render.com",
         port="5432"
     )
 
-st.set_page_config(page_title="Gerenciador de Gráficos", layout="wide")
+st.set_page_config(page_title="Gerenciador de Gráficos by (Ezequiel Barazetti)", layout="wide")
 st.title("📊 Gerenciador de Gráficos Salvos")
 
 # Carregar gráficos salvos no banco de dados
